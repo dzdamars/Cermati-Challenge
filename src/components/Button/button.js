@@ -1,0 +1,6 @@
+import React from 'react'
+import {Button} from './button.style'
+
+export default (props) => {
+	return <Button {...props}>{props.children}</Button>
+}
